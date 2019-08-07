@@ -1,0 +1,33 @@
+{
+  "name": "@alobato/button",
+  "version": "1.0.0",
+  "description": "Button react component",
+  "main": "index.js",
+  "repository": "github:alobato/button",
+  "author": "alobato",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "button"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "dependencies": {
+    "styled-components": "^4.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/alobato/button/issues"
+  },
+  "homepage": "https://github.com/alobato/button#readme"
+}
