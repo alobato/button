@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports["default"] = void 0;
+exports["default"] = exports.ButtonRaw = void 0;
 
 var _react = _interopRequireDefault(require("react"));
 
@@ -70,6 +70,8 @@ function _templateObject() {
 function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
 
 var ButtonRaw = _styledComponents["default"].button(_templateObject());
+
+exports.ButtonRaw = ButtonRaw;
 
 var Button = function Button(_ref) {
   var children = _ref.children,

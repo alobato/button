@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 
-const ButtonRaw = styled.button`
+export const ButtonRaw = styled.button`
   line-height: 0;
   padding: 0;
   border: 0;
