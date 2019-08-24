@@ -44,7 +44,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n  font-family: ", ";\n  border-radius: 22px;\n  font-size: 16px;\n  font-weight: 700;\n  padding: 12px 32px;\n  transition: all .3s cubic-bezier(.645, .045, .355, 1);\n  background: hsla(216, 40%, 55%, 1);\n  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);\n  color: ", ";\n  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);\n  background-color: ", ";\n  ", "\n  ", "\n  &:focus {\n    outline: 0;\n    box-shadow: 0 0 0 3px ", ";\n    border: 1px solid ", ";\n  }\n  & > i {\n    display: inline-block;\n    line-height: 0;\n    pointer-events: none;\n\n    vertical-align: -2px;\n    opacity: 0;\n    margin-left: -16px;\n    transition: margin-left .3s cubic-bezier(.645, .045, .355, 1);\n\n    ", "\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-family: ", ";\n  border-radius: 22px;\n  font-size: 16px;\n  font-weight: 700;\n  padding: 12px 32px;\n  transition: all .3s cubic-bezier(.645, .045, .355, 1);\n  background: hsla(216, 40%, 55%, 1);\n  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);\n  color: ", ";\n  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);\n  background-color: ", ";\n  ", "\n  ", "\n  &:focus {\n    outline: 0;\n    box-shadow: 0 0 0 3px ", ";\n    border: 1px solid ", ";\n  }\n  &:disabled {\n    background: ", ";\n    cursor: not-allowed;\n  }\n  & > i {\n    display: inline-block;\n    line-height: 0;\n    pointer-events: none;\n\n    vertical-align: -2px;\n    opacity: 0;\n    margin-left: -16px;\n    transition: margin-left .3s cubic-bezier(.645, .045, .355, 1);\n\n    ", "\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -126,6 +126,8 @@ var _default = (0, _styledComponents["default"])(Button)(_templateObject2(), fun
   return props.theme && props.theme.color && props.theme.colors.primary200 ? props.theme.colors.primary200 : 'hsla(202, 81%, 86%, 1)';
 }, function (props) {
   return props.theme && props.theme.color && props.theme.colors.primary400 ? props.theme.colors.primary400 : 'hsla(205, 79%, 66%, 1)';
+}, function (props) {
+  return props.theme && props.theme.color && props.theme.colors.primary200 ? props.theme.colors.primary200 : 'hsla(202,  81%, 86%, 1)';
 }, function (props) {
   return props.loading && (0, _styledComponents.css)(_templateObject5());
 });
