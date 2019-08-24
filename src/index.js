@@ -57,6 +57,10 @@ export default styled(Button)`
     box-shadow: 0 0 0 3px ${props => (props.theme && props.theme.color && props.theme.colors.primary200) ? props.theme.colors.primary200 : 'hsla(202, 81%, 86%, 1)'};
     border: 1px solid ${props => (props.theme && props.theme.color && props.theme.colors.primary400) ? props.theme.colors.primary400 : 'hsla(205, 79%, 66%, 1)'};
   }
+  &:disabled {
+    background: ${props => (props.theme && props.theme.color && props.theme.colors.primary200) ? props.theme.colors.primary200 : 'hsla(202,  81%, 86%, 1)'};
+    cursor: not-allowed;
+  }
   & > i {
     display: inline-block;
     line-height: 0;
