@@ -39,7 +39,7 @@ export default styled(Button)`
   transition: all .3s cubic-bezier(.645, .045, .355, 1);
   background: hsla(216, 40%, 55%, 1);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
-  color: ${props => props.theme.colors.white};
+  color: ${props => (props.theme && props.theme.color && props.theme.colors.white) ? props.theme.colors.white : 'white'};
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
   background-color: ${props => (props.theme && props.theme.color && props.theme.colors.primary) ? props.theme.colors.primary : 'hsla(207, 73%, 57%, 1)'};
   ${props => props.small && css`

@@ -113,7 +113,7 @@ var Button = function Button(_ref) {
 var _default = (0, _styledComponents["default"])(Button)(_templateObject2(), function (props) {
   return props.theme && props.theme.secondaryFontFamily ? props.theme.secondaryFontFamily : 'inherit';
 }, function (props) {
-  return props.theme.colors.white;
+  return props.theme && props.theme.color && props.theme.colors.white ? props.theme.colors.white : 'white';
 }, function (props) {
   return props.theme && props.theme.color && props.theme.colors.primary ? props.theme.colors.primary : 'hsla(207, 73%, 57%, 1)';
 }, function (props) {
